@@ -68,6 +68,7 @@ const PatientDashboard: React.FC = () => {
 
       setAppointments(mockAppointments);
       setLoading(false);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Failed to load appointments');
       setLoading(false);

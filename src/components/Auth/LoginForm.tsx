@@ -38,7 +38,7 @@ const LoginForm: React.FC = () => {
             <Hospital className="w-16 h-16 text-blue-600" />
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h2>
-          <p className="text-gray-600">Sign in to your Openskale MediCare account</p>
+          <p className="text-gray-600">Sign in to your Prasad MediCare account</p>
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-8">

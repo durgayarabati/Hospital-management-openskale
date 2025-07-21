@@ -60,7 +60,7 @@ const RegisterForm: React.FC = () => {
           <div className="flex justify-center mb-4">
             <Hospital className="w-16 h-16 text-blue-600" />
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Join Openskale MediCare</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">Join Prasad MediCare</h2>
           <p className="text-gray-600">Create your account to get started</p>
         </div>
 

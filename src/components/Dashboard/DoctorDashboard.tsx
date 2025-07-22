@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { DollarSign, Calendar, Guitar as Hospital, TrendingUp } from 'lucide-react';
@@ -46,6 +47,7 @@ const DoctorDashboard: React.FC = () => {
 
       setDashboardData(mockData);
       setLoading(false);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Failed to load dashboard data');
       setLoading(false);
